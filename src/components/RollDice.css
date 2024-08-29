@@ -1,0 +1,38 @@
+/* RollDice.css */
+.RollDice {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+.RollDiceContainer {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.handleBtn {
+  font-size: 1.2rem;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.handleBtn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.handleBtn:hover:not(:disabled) {
+  background-color: #45a049;
+}

@@ -1,0 +1,9 @@
+.Die {
+  font-size: 11rem; /* Increase the size to make the dice bigger */
+  color: #333;
+  transition: transform 0.6s ease-in-out;
+}
+
+.Die-shaking {
+  transform: rotate(720deg); /* Keep the spinning effect */
+}
